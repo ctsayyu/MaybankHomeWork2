@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ContactUsFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:gravity="center"
+        android:text="contact us fragment"
+        android:textAllCaps="true"
+        android:textColor="@color/black"
+        android:textSize="32sp"
+        android:textStyle="bold"/>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="200dp"
+        android:src="@drawable/facebook" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Just A Simple Project"
+        android:layout_marginTop="210dp"
+        android:layout_marginStart="80dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/blue5"/>
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/instagram"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="300dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="'@Whatever"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="310dp"
+        android:textColor="@color/blue5"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/twitter"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="400dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="'@Whatever"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="410dp"
+        android:textColor="@color/blue5"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+
+</FrameLayout>
